@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>TOP3-FDU</title>
+      <link href="/kiwi142857.githhub.io/2023/09/10/FDU/"/>
+      <url>/kiwi142857.githhub.io/2023/09/10/FDU/</url>
+      
+        <content type="html"><![CDATA[<span id="more"></span><h2 id="复旦邯郸校区"><a href="#复旦邯郸校区" class="headerlink" title="复旦邯郸校区"></a>复旦邯郸校区</h2><p><img src="/kiwi142857.githhub.io/2023/09/10/FDU/fdp1.jpg" alt="fd1"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/hdp1.jpg" alt="fd1"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/hdp2.jpg" alt="fd1"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/hdp3.jpg" alt="fd1"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/hdp5.jpg" alt="fd1"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/hdp7.jpg" alt="fd1"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/hdp8.jpg" alt="fd1"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/hdp10.jpg" alt="fd1"></p><h2 id="复旦江湾校区"><a href="#复旦江湾校区" class="headerlink" title="复旦江湾校区"></a>复旦江湾校区</h2><p><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp1.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp2.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp3.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp4.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp5.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp6.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp7.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp8.jpg" alt="fd2"><br><img src="/kiwi142857.githhub.io/2023/09/10/FDU/jwp9.jpg" alt="fd2"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>My first Post</title>
+      <link href="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/"/>
+      <url>/kiwi142857.githhub.io/2023/09/06/My-First-Blog/</url>
+      
+        <content type="html"><![CDATA[<p>用第一篇博客记录大学的第一个暑假。（<del>随便写写</del>）</p><span id="more"></span><blockquote><p>暑假记录贴 未完待续。</p></blockquote><h2 id="《这就是中国》录制体验"><a href="#《这就是中国》录制体验" class="headerlink" title="《这就是中国》录制体验"></a>《这就是中国》录制体验</h2><p><del>期末考完待上海的好处是活动比较多</del><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/chinaNow.png" alt="ChinaNow"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/vv.jpg" alt="vv"><br>vv老师还是很平易近人hhhh</p><h2 id="博客尝试"><a href="#博客尝试" class="headerlink" title="博客尝试"></a>博客尝试</h2><p>虽然假期伊始便有了写Blog记录的想法，然而拖延症晚期的我直到假期终了才写下第一篇Blog。参考网上教程，使用hexo+Github的方式搭建的博客，途中几次debug花费了不少时间。（<del>本来打算用gitee的，但是实名认证现在还没通过，太高效了</del>）</p><h3 id="bug1"><a href="#bug1" class="headerlink" title="bug1"></a>bug1</h3><p>在链接github仓库和本地ssh时，仓库的git地址手动输入，带不少问题，在上传本地仓库时，始终上传失败，刚开始以为ssh的公钥出现问题，重新生成了几次ssh重新配置，但都以失败告终。在网上找的教程方法换了好几个都解决不了，最后复制Git地址直接粘贴顺利解决。<em>在第一次搭git仓库时也遇到这个问题，当时把remote删掉重新添加解决了</em></p><h3 id="bug2"><a href="#bug2" class="headerlink" title="bug2"></a>bug2</h3><p>第二个较大的Bug是关联github仓库page和博客后，Github page的css无法加载，在尝试多种方法后发现仓库网址<a href="https://github.com/kiwi142857/kiwi142857.githhub.io.git">https://github.com/kiwi142857/kiwi142857.githhub.io.git</a>  git最后少个<strong>斜杠&#x2F;</strong></p><h2 id="思源之行"><a href="#思源之行" class="headerlink" title="思源之行"></a>思源之行</h2><p>思源的十五天衡阳之行是大学来的第一次社会实践和集体活动，在思源的十五天里遇到了一群有趣的灵魂。<img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/door.jpg" alt="衡阳一中校门"></p><h3 id="支教之旅"><a href="#支教之旅" class="headerlink" title="支教之旅"></a>支教之旅</h3><p>作为思源的一名物理老师参加支教课程，被这群初高中学生对于理科的热情所打动。有初中学生早早学习高中课程甚至竞赛课程，有高中学生在学数理方法（<del>我也不会</del>）。</p><h3 id="社会调研"><a href="#社会调研" class="headerlink" title="社会调研"></a>社会调研</h3><p>和教育组的小伙伴一起，在衡阳展开（<del>动物园现状</del>）教育现状的调研也是我与校外社会接触的一次尝试。uu们都很强~</p><h2 id="永春"><a href="#永春" class="headerlink" title="永春"></a>永春</h2><p><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount.jpg" alt="百丈岩1"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount2.jpg" alt="百丈岩2"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/light.jpg" alt="树——丁达尔"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/8.31.jpg" alt="庙"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/wanxia.jpg" alt="晚霞"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/hushan.jpg" alt="road"><br>…未完待续</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 假期记录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/kiwi142857.githhub.io/2023/09/06/hello-world/"/>
+      <url>/kiwi142857.githhub.io/2023/09/06/hello-world/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="1b8d13274f9af5501d4b3227edd278842e3318d76e01389ea541ec0639122bc3">10d79030e8222445804370796b90fca1cf7dd2ee01010d95413afa643c36d75c6da7dc8584583c53132d123565a83bc482d57efe09dbb13f6be1ebadf67b396c5e9af14ae37a94b87d779719bc8c1cd1a95420a6d53586101970b6bd1e11383c5fb9eb6a2afd2dfd764940c736e232c31819ba63da4a7c6eb6c1003cc6443dcf2082b9f749ca03a1484b87b08c908b3c310d7b631064a7fc3f9ca36177e4c3059978875c3caa78a7dceb6037a9522caf5c4adf858dd97440561f76a5ba5e4fd77e9898dfeb4cad54c4bb643f9c0ecbaef49a3431bdd2455830a88255232397afbbe9b23eb9395dfae6f0824e03416bc0b3804386abdc6c923976a913424fdbf1ba89bde972822239ac5e9109f398b65ae65ef00629508a203d30649f6408e1f61f5f6e73d99349907d745bd4c4ef0763621826913a2677273e3b66ae19439d1940d9ebcc45d324738506f0ac5dca5093adf45b82a24da2d49432e9f7cea3b56d73ea8b80628014008c75e6df0aa070ccdaa53907f1adc5e6234b2ab2f7f8485fb9383dc64927d631e20713c7d719815ed85511d4f3fc608bf58e73980feec79a5a034b1603177bdb3234ce36f5bfe79e6319314209a343dee0a1520163be141ddaa98f2724145f9dbcae8dd790f7bb88ebd84c867b72037283d9cad163785b66e1f9251474623115658a84db63e7bb95720a9909854aa8ffc036cf6385a73c71eabaea75d46421c494252853a38f94940e8474cfc39b3be49c34a489d9703f8fcc4ca554d597d0cc971d78c440f870cb23e159ce8b9524d14eeb9cd9c727a22d33974698c60f333b037f4ed04e069a54886ffed9e4030b7378d99efec8d214a3210d79d10ccaeb17462cd8118d83d47792b0e631791bdfeb4cefbcb09be7953dd80f94d4ad69b0cad943b854523834f062e4eb2cc2c67c4c2cf54118ab5863a5a96dde39430cc1127762116faa24d2b498f5bbadbc5aba696329e1d3dd300e3ed8c3fa03901fb2a46137b7a90f39c383decbee7684e6efc8189fd608e416e4e8c05ed51040f3a923cf8c1a4d079434281bce2fc098677fef0bddb68b5b5e800d4480ff7eee1ccd2cad3f59481afe81db92626a0044ebdcbf9eb705ea59271bc78b343b1a7676d67b3402ca5870ce19a79159776acaa5a844f4377cd38f201392c56c95ca3c969a3d9ed6f3d72df8b62cbe32493da4fe34ede03ef8893a16dd397b1aaa17fe72057a5d5257c4555aefeb29e5a767718d9ea9d372222678959a13bcdce9ccbb231386e8d6b960c73961fad79d38c0bed9a399e59cc2738e51648de00bb6215c11bd4c14cc3bdd18c2a6b490c1daa7d688770e7483e0ffea75af2938beadd4d5eb4a4bdc6e0dbb8b095babf2a4e9c4ceca34430e309afde34d121b2dd7b8c2e271424698420fb28e8ead5ca5240b5ff3d26aa03423bc686153f0b848b0fecc3777cf9244de038dd253ed7bcbb4a6784a653095356b6db45e7ba25902cda7e35d752383b9a6ab0762d733cd0abfb4f635a492ae79db60ab9937989320526609a2c7243e91c65dc1d5a33907d93a4b4a77d126cd8a8774871fd6d82c59f893192c294ba7d1e422c064a4edcc37ccb03234e280cb3deb9c3857e67591b6acc2b7fe5f1456bab17c5321dc52aae78b7d4c338460837de808925829c154e0f29787cabcb186d6c6ca7ec128ae44cf422cb80458b94c5e1a31d0741c30364d07faaa8b684798441e016d80e2dd81ec02fcc0a2bc479e11771b6253a707f69ca51c0f9fdcd566370fc3b83167576f0642602c9b8aea2bab996d592db631ad5fc8f29aac1233f97d9753aa5124e7deacf9ec4af572d80a56f634dacd902f1366e0b1b5457cd59e420d480c486a82e8dffb6fed9f5f49f672755404eb485cb9296b6f2745a416c9f7bfb864a3f686646f297625c4e19de07e814dfd09f11edea90cc0687e1f876e31d4431675275fe693efa9c2d021034fc3fe8dfeeffcbc3625185f6246d27fbd9dda170c3e5a12a49a29114edf8dddda1d0f6dac1d120309032ed31f030b091da28eae18cb8ceeeb029c09d24e1df1de61a0b3cc84651a35550da53dc6b5730568b8329b309fbe551e7bcd707beadb89c5e050df69c0d229fb526624e21391c8628f9c92d8a69d503e913a145ceed34769f3747dc31d60d475542773be81df3b54c9899d87c0193dbad733508ff37017955200df924464e69d2d800c78594fbf452542e69880c8cc9189c923202ed9989c3f4e9e95e8f42dca74944b0c90fe73c1978fc8e6748b0e0deacf093676782aad0492be731d914e7733189cd259cd6fa44fdec98789829a9188f15f729fccd537128c43a00b114ebd5530caac7302fea8b0a434b24bb1bdbbfea32694903bc2cdf7787789a1a0cac3e5125cb0618ce2a5ce6f9c276dde8b50fbd5828c627d0088d70ee5b5425fccea593350a9cc3187ead38f1450dac57633eefdeaad86895278f00832f79b1575894508d61bc505cb6f4cabaf694b5bd6bf710c7639e10746957ed2ffe448c2aa43de5cad059bb516616156acb04b4015e5dd26a780abcfce8d93bb36e4844199b2f6748d4bcbc51f8ce0812358faac10f7c47159e90b1988f1b911710c57f93d8630bf5487af0a30850c636bfed14904e221f94fbe032a3e38a29d463415d670cf43c7ab4e16bce0e1e2e70c26ff44a1665edb92f8195117da841fb7b41378c510160b33905d5b50cdb6307157022d53d9aa946f42cb9849201d26974e51f6c16e2d4382a1da7b729f204bddbfc875139850fe2353baa994aea8be793c25485ea1ab187afdc8ed2a9bec0246b8811bcf27bcd752662e3485325fc0f65d02ece2183853f6ba772bcc75a4393239a4539ab17e0ce03c3022bfca20adb7acf4ceb3aadc3d42c7e7b373c313a8558e1be299845fbf0a358c99bfd3ef81a74636e2d3929a57417a16db41675cebb05d8639e2da26b33b3afb2b22bc5aefea4d8d3b962467a21bc290104ad956048c62d224548aae315745c548b80305aa27285bb8251003f7a12f358c798e0a7da6300eae51bcc38767f3ab3e157e96d4c2d58d62ae6ae5be3b89ea7979df7e00410164e9960bb141bffd90d3ccf93aba339a490ef815a229c0631def3ae55ff5b1d90a7ee1df0e5f1a1d4ed04df223763cc4d613fbcc9afc9e56e53da54ef1491d807458e2</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码是hello。</span>      </label>    </div>  </div></div><script data-pjax src="/kiwi142857.githhub.io/lib/hbe.js"></script><link href="/kiwi142857.githhub.io/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
