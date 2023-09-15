@@ -11,14 +11,18 @@
   <entry>
     <title>VMware图形化界面非管理员状态下获得管理员权限</title>
     <url>/kiwi142857.githhub.io/2023/09/13/GetAdministratorPrivilegesInVMware/</url>
-    <content><![CDATA[<p>登录VMware时</p>
-<span id="more"></span> 
-<p>设置了root的密码后新建了一个无管理员权限的用户，此时直接采用<code>sudo -i</code> 或者<code>su root</code>等方式显示 </p>
-<blockquote>
-<p>无权限切换管理员用户  </p>
-</blockquote>
-<p>等提示。<br>此时可在设置-&gt;用户中新建一个带管理员权限的用户，如<code>user2</code>（需要<code>root</code>的密码），并设置密码。然后关机重启，开机选项选择切换用户到<code>user2</code>，输入<code>user2</code>密码，此时user2用户具有管理员权限，通过user2的终端<code>sudo -i</code>切换到<code>root</code>身份。</p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="90f6aeea90a68ccf7a85ca78c15f4be6b2e0d881ba346b9d4f1aec8ce6bea665">ecce56b50b2e958991f775cdd8083214cd3cc433c99190ba931491d3339448fe1ad5a9a3c327a9740199dbbea0786f8acef43fbc8bfeb71b523a1f256e494ecd2a60cd5e085e1b11227791ce8fd8f8e89ef20f91829c821253cde2b6cb9d4f782decff89cd782ac5323f8b69d310dbfcfbfe72d9b72f98ae6d880a1d228f3645934718facc2e1a16447c1562d8ff175a4080161fb4f6873863b7c0fc562cda18d4085f44e8ca568693c7ed2cefe0ebac2e93d47b3767b701687da03e89f21316059c127ff7e9bc8083fbea84d0a677d6d5123f4031c3810dc4f3d83fd5f65a8a2ac8b9b4f6584b7ea2c4503f4732c5fc9a39e3829c5f4f0005fce3a7cf4cd922669f3b2f29a51c82ffd5036c2aa0d30bd6ccf1dc3859cb6269b27bfba584b7951930c0018968517f2a8cbe4882d250548ac5b0e690d281d200d50743a77d5011feba8f6aa8066d0b163bbe97de0a8575d6bba9ef16e929add3795418dc71f379f65f8abd6ffc6ba50fb3495203a3197814bd35f2e34a191ce1bb60ce8bf5895ec6c46fdd40521bb2ede4a1192edc7ab5906ba714d01cbc3c45409806a8e298e2ac79b97b7cb7415b6b895e147017e680bb207bcd1b64ce9e6c50644bed3681e98daae01c9080266ccbe5337653239a6c89856e8b4b7eeac7ce91955f919d565b104756afe051e07eb03c774e92bd0e0d10aef0d900bbfe145b139938db4abeb659bafeae00a9bceff20c140604baf5b8e29ef00e6a108205dc82ff41734799c32ff85bbc54012f4097f0c22629315ceab47946c334867b8772b9996992b906157bbc584d27c75923e6e4ded8f63e65eb20ea689ec234b975f60daa2a36bfa4769527d2a4766581c8164d982c77ef1fa00d8e35aa3dd824343d7e244684d1daadbea9280cd8f450f4f2f1b8a51d5dc73f42d487badfe4aaffd6a8e407b31f092eb97f0dabdf41dbe70cacfc2c48b9f240611d7044f81ce81ceb2d77aafb0450aa</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码是vmware。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/kiwi142857.githhub.io/lib/hbe.js"></script><link href="/kiwi142857.githhub.io/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>Linux</tag>
         <tag>虚拟机</tag>
