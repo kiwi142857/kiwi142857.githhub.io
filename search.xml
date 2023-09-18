@@ -78,4 +78,15 @@
         <tag>SJTU</tag>
       </tags>
   </entry>
+  <entry>
+    <title>VMware-OpenEuler换源</title>
+    <url>/kiwi142857.githhub.io/2023/09/18/VMware-OpenEuler%E6%8D%A2%E6%BA%90/</url>
+    <content><![CDATA[<p>OpenEuler<span id="more"></span>使用自带源<a href="https://repo.openeuler.org/openEuler-20.03-LTS">https://repo.openeuler.org/openEuler-20.03-LTS</a>时，下载速度较慢，甚至经常停顿。<br>亲测换为阿里源下载速度正常。 </p>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">\cp /etc/yum.repos.d/openEuler.repo /etc/yum.repos.d/openEuler.repo.backup  <span class="comment">#备份</span></span><br><span class="line">sed <span class="literal">-i</span> <span class="string">&quot;s#repo.openeuler.org#mirrors.aliyun.com/openeuler#g&quot;</span> /etc/yum.repos.d/openEuler.repo <span class="comment">#修改为阿里源</span></span><br><span class="line">yum makecache  <span class="comment">#清理缓存，重新启动</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>VMware OpenEuler</tag>
+      </tags>
+  </entry>
 </search>
