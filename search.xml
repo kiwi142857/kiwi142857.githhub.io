@@ -133,7 +133,7 @@
 <p>在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…</p>
 </blockquote>
 <span id="more"></span>
-<h2 id="1-获取虚拟机ip地址"><a href="#1-获取虚拟机ip地址" class="headerlink" title="1. 获取虚拟机ip地址"></a>1. 获取虚拟机ip地址</h2><p>   在虚拟机中输入<code>ipconfig</code>，获取ip地址<br>   （如果ifconfig命令无效，可以使用<code>sudo apt install net-tools</code>安装net-tools）</p>
+<h2 id="1-获取虚拟机ip地址"><a href="#1-获取虚拟机ip地址" class="headerlink" title="1. 获取虚拟机ip地址"></a>1. 获取虚拟机ip地址</h2><p>   在虚拟机中输入<code>ifconfig</code>，获取ip地址<br>   （如果ifconfig命令无效，可以使用<code>sudo apt install net-tools</code>安装net-tools）</p>
 <h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2. 安装插件"></a>2. 安装插件</h2><p>   在主机上安装插件<code>Remote-SSH插件</code><br>   <img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png" alt="Alt text"></p>
 <h2 id="3-配置"><a href="#3-配置" class="headerlink" title="3. 配置"></a>3. 配置</h2><p> 在主机上配置<code>config</code>文件<br> <img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png" alt="Alt text"><br>    <code>Host</code>：主机名，随便起<br>    <code>HostName</code>：虚拟机的ip地址,如192.0.0.0<br>    <code>User</code>：虚拟机的用户名</p>
 <h2 id="4-连接"><a href="#4-连接" class="headerlink" title="4. 连接"></a>4. 连接</h2><p>   在主机上按<code>F1</code>，输入<code>Remote-SSH:Connect to Host</code>，选择刚才配置的主机名，即可连接</p>
