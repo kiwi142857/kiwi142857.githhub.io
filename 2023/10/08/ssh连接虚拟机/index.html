@@ -19,36 +19,31 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"kiwi142857.github.io","root":"/kiwi142857.githhub.io/","images":"/kiwi142857.githhub.io/images","scheme":"Muse","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/kiwi142857.githhub.io/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/kiwi142857.githhub.io/js/config.js"></script>
 
-    <meta name="description" content="思源湖畔">
+    <meta name="description" content="在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SJTU_Campus">
-<meta property="og:url" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/index.html">
+<meta property="og:title" content="使用主机vscodessh连接虚拟机">
+<meta property="og:url" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/index.html">
 <meta property="og:site_name" content="Kiwi&#39;s Blog">
-<meta property="og:description" content="思源湖畔">
+<meta property="og:description" content="在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p1.jpg">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p2.jpg">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p3.jpg">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p4.jpg">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p5.jpg">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p6.jpg">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p7.jpg">
-<meta property="article:published_time" content="2023-09-15T10:56:09.000Z">
-<meta property="article:modified_time" content="2023-09-15T11:02:43.328Z">
+<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png">
+<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png">
+<meta property="article:published_time" content="2023-10-08T13:24:55.000Z">
+<meta property="article:modified_time" content="2023-10-08T13:34:49.774Z">
 <meta property="article:author" content="kiwi">
-<meta property="article:tag" content="SJTU">
+<meta property="article:tag" content="-vmware -ssh -vscode">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p1.jpg">
+<meta name="twitter:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png">
 
 
-<link rel="canonical" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/">
+<link rel="canonical" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/","path":"2023/09/15/SJTU-Campus/","title":"SJTU_Campus"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/","path":"2023/10/08/ssh连接虚拟机/","title":"使用主机vscodessh连接虚拟机"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>SJTU_Campus | Kiwi's Blog</title>
+<title>使用主机vscodessh连接虚拟机 | Kiwi's Blog</title>
   
 
 
@@ -144,7 +139,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%80%9D%E6%BA%90%E6%B9%96%E7%95%94"><span class="nav-number">1.</span> <span class="nav-text">思源湖畔</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E8%8E%B7%E5%8F%96%E8%99%9A%E6%8B%9F%E6%9C%BAip%E5%9C%B0%E5%9D%80"><span class="nav-number">1.</span> <span class="nav-text">1. 获取虚拟机ip地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6"><span class="nav-number">2.</span> <span class="nav-text">2. 安装插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E9%85%8D%E7%BD%AE"><span class="nav-number">3.</span> <span class="nav-text">3. 配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E8%BF%9E%E6%8E%A5"><span class="nav-number">4.</span> <span class="nav-text">4. 连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E6%88%90%E5%8A%9F%EF%BC%81"><span class="nav-number">5.</span> <span class="nav-text">5. 成功！</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -190,7 +185,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/">
+    <link itemprop="mainEntityOfPage" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/kiwi142857.githhub.io/images/avatar.gif">
@@ -203,12 +198,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="SJTU_Campus | Kiwi's Blog">
+      <meta itemprop="name" content="使用主机vscodessh连接虚拟机 | Kiwi's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          SJTU_Campus
+          使用主机vscodessh连接虚拟机
         </h1>
 
         <div class="post-meta-container">
@@ -220,11 +215,11 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-15 18:56:09 / 修改时间：19:02:43" itemprop="dateCreated datePublished" datetime="2023-09-15T18:56:09+08:00">2023-09-15</time>
+      <time title="创建时间：2023-10-08 21:24:55 / 修改时间：21:34:49" itemprop="dateCreated datePublished" datetime="2023-10-08T21:24:55+08:00">2023-10-08</time>
     </span>
 
   
-    <span id="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/" class="post-meta-item leancloud_visitors" data-flag-title="SJTU_Campus" title="阅读次数">
+    <span id="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/" class="post-meta-item leancloud_visitors" data-flag-title="使用主机vscodessh连接虚拟机" title="阅读次数">
       <span class="post-meta-item-icon">
         <i class="far fa-eye"></i>
       </span>
@@ -240,9 +235,16 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="思源湖畔"><a href="#思源湖畔" class="headerlink" title="思源湖畔"></a>思源湖畔</h2><span id="more"></span>
-
-<p><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p1.jpg" alt="p1"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p2.jpg" alt="p2"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p3.jpg" alt="p3"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p4.jpg" alt="p4"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p5.jpg" alt="p5"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p6.jpg" alt="p6"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p7.jpg" alt="p7"></p>
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="1-获取虚拟机ip地址"><a href="#1-获取虚拟机ip地址" class="headerlink" title="1. 获取虚拟机ip地址"></a>1. 获取虚拟机ip地址</h2><p>   在虚拟机中输入<code>ipconfig</code>，获取ip地址<br>   （如果ifconfig命令无效，可以使用<code>sudo apt install net-tools</code>安装net-tools）</p>
+<h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2. 安装插件"></a>2. 安装插件</h2><p>   在主机上安装插件<code>Remote-SSH插件</code><br>   <img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png" alt="Alt text"></p>
+<h2 id="3-配置"><a href="#3-配置" class="headerlink" title="3. 配置"></a>3. 配置</h2><p> 在主机上配置<code>config</code>文件<br> <img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png" alt="Alt text"><br>    <code>Host</code>：主机名，随便起<br>    <code>HostName</code>：虚拟机的ip地址,如192.0.0.0<br>    <code>User</code>：虚拟机的用户名</p>
+<h2 id="4-连接"><a href="#4-连接" class="headerlink" title="4. 连接"></a>4. 连接</h2><p>   在主机上按<code>F1</code>，输入<code>Remote-SSH:Connect to Host</code>，选择刚才配置的主机名，即可连接</p>
+<h2 id="5-成功！"><a href="#5-成功！" class="headerlink" title="5. 成功！"></a>5. 成功！</h2><pre><code>接下来就可以在主机上使用vscode编辑虚拟机中的文件了（ps:插件需要重新安装ssh版，不然会报错）
+</code></pre>
 
     </div>
 
@@ -252,21 +254,18 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/kiwi142857.githhub.io/tags/SJTU/" rel="tag"># SJTU</a>
+              <a href="/kiwi142857.githhub.io/tags/vmware-ssh-vscode/" rel="tag"># -vmware -ssh -vscode</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/kiwi142857.githhub.io/2023/09/13/GetAdministratorPrivilegesInVMware/" rel="prev" title="VMware图形化界面(已知root密码)非管理员状态下获得管理员权限">
-                  <i class="fa fa-angle-left"></i> VMware图形化界面(已知root密码)非管理员状态下获得管理员权限
+                <a href="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/" rel="prev" title="VSCode编译文件夹下多个文件并连接库">
+                  <i class="fa fa-angle-left"></i> VSCode编译文件夹下多个文件并连接库
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/kiwi142857.githhub.io/2023/09/18/VMware-OpenEuler%E6%8D%A2%E6%BA%90/" rel="next" title="VMware-OpenEuler换源">
-                  VMware-OpenEuler换源 <i class="fa fa-angle-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -362,7 +361,7 @@ darkmode.showWidget();
 
 
 
-<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"i3uwDeZiqvUWJYHCg2Ca22mo-gzGzoHsz","appKey":"6JD9VjtzjECsmIegDjxv2Avk","serverURLs":"https://i3uwdezi.lc-cn-n1-shared.com","placeholder":"输入你的评论\n昵称为必填项目，输入QQ号可以直接获取用户名和头像，并且省去了填写邮箱的麻烦！\n虽然email不是必选，但是填写了email可以收到推送通知哦！","avatar":"","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":true,"enableQQ":true,"requiredFields":["nick"],"el":"#valine-comments","path":"/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/"}</script>
+<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"i3uwDeZiqvUWJYHCg2Ca22mo-gzGzoHsz","appKey":"6JD9VjtzjECsmIegDjxv2Avk","serverURLs":"https://i3uwdezi.lc-cn-n1-shared.com","placeholder":"输入你的评论\n昵称为必填项目，输入QQ号可以直接获取用户名和头像，并且省去了填写邮箱的麻烦！\n虽然email不是必选，但是填写了email可以收到推送通知哦！","avatar":"","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":true,"enableQQ":true,"requiredFields":["nick"],"el":"#valine-comments","path":"/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/"}</script>
 <script>
 document.addEventListener('page:loaded', () => {
   NexT.utils.loadComments(CONFIG.valine.el)
