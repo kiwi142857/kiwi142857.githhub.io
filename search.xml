@@ -45,14 +45,25 @@
       </tags>
   </entry>
   <entry>
-    <title>SJTU_Campus</title>
-    <url>/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/</url>
-    <content><![CDATA[<h2 id="思源湖畔"><a href="#思源湖畔" class="headerlink" title="思源湖畔"></a>思源湖畔</h2><span id="more"></span>
+    <title>My first Post</title>
+    <url>/kiwi142857.githhub.io/2023/09/06/My-First-Blog/</url>
+    <content><![CDATA[<p>用第一篇博客记录大学的第一个暑假。（<del>随便写写</del>）</p>
+<span id="more"></span>
 
-<p><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p1.jpg" alt="p1"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p2.jpg" alt="p2"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p3.jpg" alt="p3"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p4.jpg" alt="p4"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p5.jpg" alt="p5"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p6.jpg" alt="p6"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p7.jpg" alt="p7"></p>
+<blockquote>
+<p>暑假记录贴 未完待续。</p>
+</blockquote>
+<h2 id="《这就是中国》录制体验"><a href="#《这就是中国》录制体验" class="headerlink" title="《这就是中国》录制体验"></a>《这就是中国》录制体验</h2><p><del>期末考完待上海的好处是活动比较多</del><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/chinaNow.png" alt="ChinaNow"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/vv.jpg" alt="vv"><br>vv老师还是很平易近人hhhh</p>
+<h2 id="博客尝试"><a href="#博客尝试" class="headerlink" title="博客尝试"></a>博客尝试</h2><p>虽然假期伊始便有了写Blog记录的想法，然而拖延症晚期的我直到假期终了才写下第一篇Blog。参考网上教程，使用hexo+Github的方式搭建的博客，途中几次debug花费了不少时间。（<del>本来打算用gitee的，但是实名认证现在还没通过，太高效了</del>）</p>
+<h3 id="bug1"><a href="#bug1" class="headerlink" title="bug1"></a>bug1</h3><p>在链接github仓库和本地ssh时，仓库的git地址手动输入，带不少问题，在上传本地仓库时，始终上传失败，刚开始以为ssh的公钥出现问题，重新生成了几次ssh重新配置，但都以失败告终。在网上找的教程方法换了好几个都解决不了，最后复制Git地址直接粘贴顺利解决。<em>在第一次搭git仓库时也遇到这个问题，当时把remote删掉重新添加解决了</em></p>
+<h3 id="bug2"><a href="#bug2" class="headerlink" title="bug2"></a>bug2</h3><p>第二个较大的Bug是关联github仓库page和博客后，Github page的css无法加载，在尝试多种方法后发现仓库网址<a href="https://github.com/kiwi142857/kiwi142857.githhub.io.git">https://github.com/kiwi142857/kiwi142857.githhub.io.git</a>  git最后少个<strong>斜杠&#x2F;</strong></p>
+<h2 id="思源之行"><a href="#思源之行" class="headerlink" title="思源之行"></a>思源之行</h2><p>思源的十五天衡阳之行是大学来的第一次社会实践和集体活动，在思源的十五天里遇到了一群有趣的灵魂。<img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/door.jpg" alt="衡阳一中校门"></p>
+<h3 id="支教之旅"><a href="#支教之旅" class="headerlink" title="支教之旅"></a>支教之旅</h3><p>作为思源的一名物理老师参加支教课程，被这群初高中学生对于理科的热情所打动。有初中学生早早学习高中课程甚至竞赛课程，有高中学生在学数理方法（<del>我也不会</del>）。</p>
+<h3 id="社会调研"><a href="#社会调研" class="headerlink" title="社会调研"></a>社会调研</h3><p>和教育组的小伙伴一起，在衡阳展开（<del>动物园现状</del>）教育现状的调研也是我与校外社会接触的一次尝试。uu们都很强~</p>
+<h2 id="永春"><a href="#永春" class="headerlink" title="永春"></a>永春</h2><p><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount.jpg" alt="百丈岩1"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount2.jpg" alt="百丈岩2"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/light.jpg" alt="树——丁达尔"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/8.31.jpg" alt="庙"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/wanxia.jpg" alt="晚霞"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/hushan.jpg" alt="road"><br>…未完待续</p>
 ]]></content>
       <tags>
-        <tag>SJTU</tag>
+        <tag>假期记录</tag>
       </tags>
   </entry>
   <entry>
@@ -67,19 +78,15 @@
       </tags>
   </entry>
   <entry>
-    <title>VSCode编译文件夹下多个文件并连接库</title>
-    <url>/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/</url>
-    <content><![CDATA[<blockquote>
-<p>以链接minisat库为例，介绍如何在VSCode中编译文件夹下多个文件并连接库</p>
-</blockquote>
-<span id="more"></span>
+    <title>SJTU_Campus</title>
+    <url>/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/</url>
+    <content><![CDATA[<h2 id="思源湖畔"><a href="#思源湖畔" class="headerlink" title="思源湖畔"></a>思源湖畔</h2><span id="more"></span>
 
-<h2 id="1-创建文件夹"><a href="#1-创建文件夹" class="headerlink" title="1. 创建文件夹"></a>1. 创建文件夹</h2><p>   准备好需要编译的文件，如<code>lab1.cpp</code>,<code>main.cpp</code> 将其放在同一个文件夹下；</p>
-<h2 id="2-创建tasks-json文件"><a href="#2-创建tasks-json文件" class="headerlink" title="2. 创建tasks.json文件"></a>2. 创建<code>tasks.json</code>文件</h2><p>   可以直接f5运行，会提示创建<code>tasks.json</code>文件，点击确定即可；<br>   如果这几个文件需要一起编译才能运行，创建后会运行失败，因为还没有配置<code>tasks.json</code>文件；</p>
-<h2 id="3-配置tasks-json文件"><a href="#3-配置tasks-json文件" class="headerlink" title="3. 配置tasks.json文件"></a>3. 配置<code>tasks.json</code>文件</h2><p>   在  <code>tasks.json</code>文件中找到<code>&quot;$&#123;file&#125;&quot;</code>,将其替换为<code>&quot;$&#123;workspaceFolder&#125;/*.cpp&quot;</code>，即可编译文件夹下所有的<code>.cpp</code>文件重新运行即可；<br>   <img src="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/image.png" alt="Alt text"><br>   更改为<br>   <img src="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/image-1.png" alt="Alt text"></p>
-<h2 id="4-链接库"><a href="#4-链接库" class="headerlink" title="*4. 链接库"></a>*4. 链接库</h2><p> 如果需要连接库，可以在<code>tasks.json</code>文件中添加<code>&quot;args&quot;: [&quot;-lminisat&quot;]</code>，即可连接<code>minisat</code>库；<br><img src="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/image-2.png" alt="Alt text"></p>
-<h2 id="5-运行"><a href="#5-运行" class="headerlink" title="5. 运行"></a>5. 运行</h2><p>   运行即可，如果需要输入文件，可以在<code>launch.json</code>文件中添加<code>&quot;args&quot;: [&quot;input.txt&quot;]</code>，即可输入<code>input.txt</code>文件；</p>
-<h2 id="6-完整tasks-json文件"><a href="#6-完整tasks-json文件" class="headerlink" title="6. 完整tasks.json文件"></a>6. 完整<code>tasks.json</code>文件</h2><figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;tasks&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppbuild&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C/C++: gcc build active file&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;/usr/bin/gcc&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="string">&quot;-fdiagnostics-color=always&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-g&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="comment">//多个cpp文件</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;/*.cpp&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="comment">//单个文件</span></span><br><span class="line">                <span class="comment">// &quot;$&#123;file&#125;&quot;,</span></span><br><span class="line">                <span class="string">&quot;-lminisat&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-lstdc++&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-o&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;&quot;</span></span><br><span class="line">                <span class="comment">//链接库minisat</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;options&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;&quot;</span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;problemMatcher&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="string">&quot;$gcc&quot;</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;group&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;kind&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;isDefault&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;detail&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Task generated by Debugger.&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2.0.0&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>]]></content>
+<p><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p1.jpg" alt="p1"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p2.jpg" alt="p2"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p3.jpg" alt="p3"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p4.jpg" alt="p4"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p5.jpg" alt="p5"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p6.jpg" alt="p6"><br><img src="/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/p7.jpg" alt="p7"></p>
+]]></content>
+      <tags>
+        <tag>SJTU</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -96,6 +103,24 @@
   </div>
 </div>
 <script data-pjax src="/kiwi142857.githhub.io/lib/hbe.js"></script><link href="/kiwi142857.githhub.io/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
+    <title>VSCode编译文件夹下多个文件并连接库</title>
+    <url>/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/</url>
+    <content><![CDATA[<blockquote>
+<p>以链接minisat库为例，介绍如何在VSCode中编译文件夹下多个文件并连接库</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="1-创建文件夹"><a href="#1-创建文件夹" class="headerlink" title="1. 创建文件夹"></a>1. 创建文件夹</h2><p>   准备好需要编译的文件，如<code>lab1.cpp</code>,<code>main.cpp</code> 将其放在同一个文件夹下；</p>
+<h2 id="2-创建tasks-json文件"><a href="#2-创建tasks-json文件" class="headerlink" title="2. 创建tasks.json文件"></a>2. 创建<code>tasks.json</code>文件</h2><p>   可以直接f5运行，会提示创建<code>tasks.json</code>文件，点击确定即可；<br>   如果这几个文件需要一起编译才能运行，创建后会运行失败，因为还没有配置<code>tasks.json</code>文件；</p>
+<h2 id="3-配置tasks-json文件"><a href="#3-配置tasks-json文件" class="headerlink" title="3. 配置tasks.json文件"></a>3. 配置<code>tasks.json</code>文件</h2><p>   在  <code>tasks.json</code>文件中找到<code>&quot;$&#123;file&#125;&quot;</code>,将其替换为<code>&quot;$&#123;workspaceFolder&#125;/*.cpp&quot;</code>，即可编译文件夹下所有的<code>.cpp</code>文件重新运行即可；<br>   <img src="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/image.png" alt="Alt text"><br>   更改为<br>   <img src="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/image-1.png" alt="Alt text"></p>
+<h2 id="4-链接库"><a href="#4-链接库" class="headerlink" title="*4. 链接库"></a>*4. 链接库</h2><p> 如果需要连接库，可以在<code>tasks.json</code>文件中添加<code>&quot;args&quot;: [&quot;-lminisat&quot;]</code>，即可连接<code>minisat</code>库；<br><img src="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/image-2.png" alt="Alt text"></p>
+<h2 id="5-运行"><a href="#5-运行" class="headerlink" title="5. 运行"></a>5. 运行</h2><p>   运行即可，如果需要输入文件，可以在<code>launch.json</code>文件中添加<code>&quot;args&quot;: [&quot;input.txt&quot;]</code>，即可输入<code>input.txt</code>文件；</p>
+<h2 id="6-完整tasks-json文件"><a href="#6-完整tasks-json文件" class="headerlink" title="6. 完整tasks.json文件"></a>6. 完整<code>tasks.json</code>文件</h2><figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;tasks&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">&#123;</span></span><br><span class="line">            <span class="attr">&quot;type&quot;</span><span class="punctuation">:</span> <span class="string">&quot;cppbuild&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;label&quot;</span><span class="punctuation">:</span> <span class="string">&quot;C/C++: gcc build active file&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;command&quot;</span><span class="punctuation">:</span> <span class="string">&quot;/usr/bin/gcc&quot;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="string">&quot;-fdiagnostics-color=always&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-g&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="comment">//多个cpp文件</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;/*.cpp&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="comment">//单个文件</span></span><br><span class="line">                <span class="comment">// &quot;$&#123;file&#125;&quot;,</span></span><br><span class="line">                <span class="string">&quot;-lminisat&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-lstdc++&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;-o&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="string">&quot;$&#123;fileDirname&#125;/$&#123;fileBasenameNoExtension&#125;&quot;</span></span><br><span class="line">                <span class="comment">//链接库minisat</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;options&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;cwd&quot;</span><span class="punctuation">:</span> <span class="string">&quot;$&#123;fileDirname&#125;&quot;</span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;problemMatcher&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">                <span class="string">&quot;$gcc&quot;</span></span><br><span class="line">            <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;group&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">                <span class="attr">&quot;kind&quot;</span><span class="punctuation">:</span> <span class="string">&quot;build&quot;</span><span class="punctuation">,</span></span><br><span class="line">                <span class="attr">&quot;isDefault&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">true</span></span></span><br><span class="line">            <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">&quot;detail&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Task generated by Debugger.&quot;</span></span><br><span class="line">        <span class="punctuation">&#125;</span></span><br><span class="line">    <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;2.0.0&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p><em><strong>好的，vscode宇宙第一编辑器！</strong></em></p>
+]]></content>
   </entry>
   <entry>
     <title>journey_to_Suzhou</title>
@@ -120,28 +145,6 @@
 ]]></content>
       <tags>
         <tag>-vmware -ssh -vscode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My first Post</title>
-    <url>/kiwi142857.githhub.io/2023/09/06/My-First-Blog/</url>
-    <content><![CDATA[<p>用第一篇博客记录大学的第一个暑假。（<del>随便写写</del>）</p>
-<span id="more"></span>
-
-<blockquote>
-<p>暑假记录贴 未完待续。</p>
-</blockquote>
-<h2 id="《这就是中国》录制体验"><a href="#《这就是中国》录制体验" class="headerlink" title="《这就是中国》录制体验"></a>《这就是中国》录制体验</h2><p><del>期末考完待上海的好处是活动比较多</del><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/chinaNow.png" alt="ChinaNow"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/vv.jpg" alt="vv"><br>vv老师还是很平易近人hhhh</p>
-<h2 id="博客尝试"><a href="#博客尝试" class="headerlink" title="博客尝试"></a>博客尝试</h2><p>虽然假期伊始便有了写Blog记录的想法，然而拖延症晚期的我直到假期终了才写下第一篇Blog。参考网上教程，使用hexo+Github的方式搭建的博客，途中几次debug花费了不少时间。（<del>本来打算用gitee的，但是实名认证现在还没通过，太高效了</del>）</p>
-<h3 id="bug1"><a href="#bug1" class="headerlink" title="bug1"></a>bug1</h3><p>在链接github仓库和本地ssh时，仓库的git地址手动输入，带不少问题，在上传本地仓库时，始终上传失败，刚开始以为ssh的公钥出现问题，重新生成了几次ssh重新配置，但都以失败告终。在网上找的教程方法换了好几个都解决不了，最后复制Git地址直接粘贴顺利解决。<em>在第一次搭git仓库时也遇到这个问题，当时把remote删掉重新添加解决了</em></p>
-<h3 id="bug2"><a href="#bug2" class="headerlink" title="bug2"></a>bug2</h3><p>第二个较大的Bug是关联github仓库page和博客后，Github page的css无法加载，在尝试多种方法后发现仓库网址<a href="https://github.com/kiwi142857/kiwi142857.githhub.io.git">https://github.com/kiwi142857/kiwi142857.githhub.io.git</a>  git最后少个<strong>斜杠&#x2F;</strong></p>
-<h2 id="思源之行"><a href="#思源之行" class="headerlink" title="思源之行"></a>思源之行</h2><p>思源的十五天衡阳之行是大学来的第一次社会实践和集体活动，在思源的十五天里遇到了一群有趣的灵魂。<img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/door.jpg" alt="衡阳一中校门"></p>
-<h3 id="支教之旅"><a href="#支教之旅" class="headerlink" title="支教之旅"></a>支教之旅</h3><p>作为思源的一名物理老师参加支教课程，被这群初高中学生对于理科的热情所打动。有初中学生早早学习高中课程甚至竞赛课程，有高中学生在学数理方法（<del>我也不会</del>）。</p>
-<h3 id="社会调研"><a href="#社会调研" class="headerlink" title="社会调研"></a>社会调研</h3><p>和教育组的小伙伴一起，在衡阳展开（<del>动物园现状</del>）教育现状的调研也是我与校外社会接触的一次尝试。uu们都很强~</p>
-<h2 id="永春"><a href="#永春" class="headerlink" title="永春"></a>永春</h2><p><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount.jpg" alt="百丈岩1"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount2.jpg" alt="百丈岩2"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/light.jpg" alt="树——丁达尔"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/8.31.jpg" alt="庙"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/wanxia.jpg" alt="晚霞"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/hushan.jpg" alt="road"><br>…未完待续</p>
-]]></content>
-      <tags>
-        <tag>假期记录</tag>
       </tags>
   </entry>
 </search>
