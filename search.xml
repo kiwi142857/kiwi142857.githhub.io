@@ -45,28 +45,6 @@
       </tags>
   </entry>
   <entry>
-    <title>My first Post</title>
-    <url>/kiwi142857.githhub.io/2023/09/06/My-First-Blog/</url>
-    <content><![CDATA[<p>用第一篇博客记录大学的第一个暑假。（<del>随便写写</del>）</p>
-<span id="more"></span>
-
-<blockquote>
-<p>暑假记录贴 未完待续。</p>
-</blockquote>
-<h2 id="《这就是中国》录制体验"><a href="#《这就是中国》录制体验" class="headerlink" title="《这就是中国》录制体验"></a>《这就是中国》录制体验</h2><p><del>期末考完待上海的好处是活动比较多</del><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/chinaNow.png" alt="ChinaNow"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/vv.jpg" alt="vv"><br>vv老师还是很平易近人hhhh</p>
-<h2 id="博客尝试"><a href="#博客尝试" class="headerlink" title="博客尝试"></a>博客尝试</h2><p>虽然假期伊始便有了写Blog记录的想法，然而拖延症晚期的我直到假期终了才写下第一篇Blog。参考网上教程，使用hexo+Github的方式搭建的博客，途中几次debug花费了不少时间。（<del>本来打算用gitee的，但是实名认证现在还没通过，太高效了</del>）</p>
-<h3 id="bug1"><a href="#bug1" class="headerlink" title="bug1"></a>bug1</h3><p>在链接github仓库和本地ssh时，仓库的git地址手动输入，带不少问题，在上传本地仓库时，始终上传失败，刚开始以为ssh的公钥出现问题，重新生成了几次ssh重新配置，但都以失败告终。在网上找的教程方法换了好几个都解决不了，最后复制Git地址直接粘贴顺利解决。<em>在第一次搭git仓库时也遇到这个问题，当时把remote删掉重新添加解决了</em></p>
-<h3 id="bug2"><a href="#bug2" class="headerlink" title="bug2"></a>bug2</h3><p>第二个较大的Bug是关联github仓库page和博客后，Github page的css无法加载，在尝试多种方法后发现仓库网址<a href="https://github.com/kiwi142857/kiwi142857.githhub.io.git">https://github.com/kiwi142857/kiwi142857.githhub.io.git</a>  git最后少个<strong>斜杠&#x2F;</strong></p>
-<h2 id="思源之行"><a href="#思源之行" class="headerlink" title="思源之行"></a>思源之行</h2><p>思源的十五天衡阳之行是大学来的第一次社会实践和集体活动，在思源的十五天里遇到了一群有趣的灵魂。<img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/door.jpg" alt="衡阳一中校门"></p>
-<h3 id="支教之旅"><a href="#支教之旅" class="headerlink" title="支教之旅"></a>支教之旅</h3><p>作为思源的一名物理老师参加支教课程，被这群初高中学生对于理科的热情所打动。有初中学生早早学习高中课程甚至竞赛课程，有高中学生在学数理方法（<del>我也不会</del>）。</p>
-<h3 id="社会调研"><a href="#社会调研" class="headerlink" title="社会调研"></a>社会调研</h3><p>和教育组的小伙伴一起，在衡阳展开（<del>动物园现状</del>）教育现状的调研也是我与校外社会接触的一次尝试。uu们都很强~</p>
-<h2 id="永春"><a href="#永春" class="headerlink" title="永春"></a>永春</h2><p><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount.jpg" alt="百丈岩1"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount2.jpg" alt="百丈岩2"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/light.jpg" alt="树——丁达尔"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/8.31.jpg" alt="庙"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/wanxia.jpg" alt="晚霞"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/hushan.jpg" alt="road"><br>…未完待续</p>
-]]></content>
-      <tags>
-        <tag>假期记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>SJTU_Campus</title>
     <url>/kiwi142857.githhub.io/2023/09/15/SJTU-Campus/</url>
     <content><![CDATA[<h2 id="思源湖畔"><a href="#思源湖畔" class="headerlink" title="思源湖畔"></a>思源湖畔</h2><span id="more"></span>
@@ -142,6 +120,28 @@
 ]]></content>
       <tags>
         <tag>-vmware -ssh -vscode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My first Post</title>
+    <url>/kiwi142857.githhub.io/2023/09/06/My-First-Blog/</url>
+    <content><![CDATA[<p>用第一篇博客记录大学的第一个暑假。（<del>随便写写</del>）</p>
+<span id="more"></span>
+
+<blockquote>
+<p>暑假记录贴 未完待续。</p>
+</blockquote>
+<h2 id="《这就是中国》录制体验"><a href="#《这就是中国》录制体验" class="headerlink" title="《这就是中国》录制体验"></a>《这就是中国》录制体验</h2><p><del>期末考完待上海的好处是活动比较多</del><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/chinaNow.png" alt="ChinaNow"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/vv.jpg" alt="vv"><br>vv老师还是很平易近人hhhh</p>
+<h2 id="博客尝试"><a href="#博客尝试" class="headerlink" title="博客尝试"></a>博客尝试</h2><p>虽然假期伊始便有了写Blog记录的想法，然而拖延症晚期的我直到假期终了才写下第一篇Blog。参考网上教程，使用hexo+Github的方式搭建的博客，途中几次debug花费了不少时间。（<del>本来打算用gitee的，但是实名认证现在还没通过，太高效了</del>）</p>
+<h3 id="bug1"><a href="#bug1" class="headerlink" title="bug1"></a>bug1</h3><p>在链接github仓库和本地ssh时，仓库的git地址手动输入，带不少问题，在上传本地仓库时，始终上传失败，刚开始以为ssh的公钥出现问题，重新生成了几次ssh重新配置，但都以失败告终。在网上找的教程方法换了好几个都解决不了，最后复制Git地址直接粘贴顺利解决。<em>在第一次搭git仓库时也遇到这个问题，当时把remote删掉重新添加解决了</em></p>
+<h3 id="bug2"><a href="#bug2" class="headerlink" title="bug2"></a>bug2</h3><p>第二个较大的Bug是关联github仓库page和博客后，Github page的css无法加载，在尝试多种方法后发现仓库网址<a href="https://github.com/kiwi142857/kiwi142857.githhub.io.git">https://github.com/kiwi142857/kiwi142857.githhub.io.git</a>  git最后少个<strong>斜杠&#x2F;</strong></p>
+<h2 id="思源之行"><a href="#思源之行" class="headerlink" title="思源之行"></a>思源之行</h2><p>思源的十五天衡阳之行是大学来的第一次社会实践和集体活动，在思源的十五天里遇到了一群有趣的灵魂。<img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/door.jpg" alt="衡阳一中校门"></p>
+<h3 id="支教之旅"><a href="#支教之旅" class="headerlink" title="支教之旅"></a>支教之旅</h3><p>作为思源的一名物理老师参加支教课程，被这群初高中学生对于理科的热情所打动。有初中学生早早学习高中课程甚至竞赛课程，有高中学生在学数理方法（<del>我也不会</del>）。</p>
+<h3 id="社会调研"><a href="#社会调研" class="headerlink" title="社会调研"></a>社会调研</h3><p>和教育组的小伙伴一起，在衡阳展开（<del>动物园现状</del>）教育现状的调研也是我与校外社会接触的一次尝试。uu们都很强~</p>
+<h2 id="永春"><a href="#永春" class="headerlink" title="永春"></a>永春</h2><p><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount.jpg" alt="百丈岩1"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/mount2.jpg" alt="百丈岩2"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/light.jpg" alt="树——丁达尔"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/8.31.jpg" alt="庙"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/wanxia.jpg" alt="晚霞"><br><img src="/kiwi142857.githhub.io/2023/09/06/My-First-Blog/hushan.jpg" alt="road"><br>…未完待续</p>
+]]></content>
+      <tags>
+        <tag>假期记录</tag>
       </tags>
   </entry>
 </search>
