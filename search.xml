@@ -142,10 +142,14 @@
 </code></pre>
 <span id="more"></span>
 <h2 id="1-获取虚拟机ip地址"><a href="#1-获取虚拟机ip地址" class="headerlink" title="1. 获取虚拟机ip地址"></a>1. 获取虚拟机ip地址</h2><p>   在虚拟机中输入<code>ifconfig</code>，获取ip地址<br>   （如果ifconfig命令无效，可以使用<code>sudo apt install net-tools</code>安装net-tools）</p>
-<h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2. 安装插件"></a>2. 安装插件</h2><p>   在主机上安装插件<code>Remote-SSH插件</code><br>   <img src="/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png" alt="Alt text"></p>
-<h2 id="3-配置"><a href="#3-配置" class="headerlink" title="3. 配置"></a>3. 配置</h2><p> 在主机上配置<code>config</code>文件<br> <img src="/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png" alt="Alt text"><br>    <code>Host</code>：主机名，随便起<br>    <code>HostName</code>：虚拟机的ip地址,如192.0.0.0<br>    <code>User</code>：虚拟机的用户名</p>
+<h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2. 安装插件"></a>2. 安装插件</h2><p>   在主机上安装插件<code>Remote-SSH插件</code><br>   <img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png" alt="Alt text"></p>
+<h2 id="3-配置"><a href="#3-配置" class="headerlink" title="3. 配置"></a>3. 配置</h2><p> 在主机上配置<code>config</code>文件<br><img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png" alt="Alt text"><br>    <code>Host</code>：主机名，随便起<br>    <code>HostName</code>：虚拟机的ip地址,如192.0.0.0<br>    <code>User</code>：虚拟机的用户名</p>
 <h2 id="4-连接"><a href="#4-连接" class="headerlink" title="4. 连接"></a>4. 连接</h2><p>   在主机上按<code>F1</code>，输入<code>Remote-SSH:Connect to Host</code>，选择刚才配置的主机名，即可连接</p>
-<h2 id="5-成功！"><a href="#5-成功！" class="headerlink" title="5. 成功！"></a>5. 成功！</h2><pre><code>接下来就可以在主机上使用vscode编辑虚拟机中的文件了（ps:插件需要重新安装ssh版，不然会报错）
+<h2 id="5-问题"><a href="#5-问题" class="headerlink" title="5. 问题"></a>5. 问题</h2><p>   若出现<code>channel 3: open failed: administratively prohibited: open failed</code>错误，需要修改虚拟机的<code>/etc/ssh/sshd_config</code>文件<br>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><br>   将<code>PermitRootLogin prohibit-password</code>改为<code>PermitRootLogin yes</code><br>   <code>AllowTcpForwarding yes</code>的注释去掉<br>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure><br>   若<code>sudo service ssh restart</code>失败，<del>可以直接重启</del>，也可以使用<code>sudo systemctl restart ssh</code>重启ssh服务</p>
+<pre><code>## 6. 成功！
+ 接下来就可以在主机上使用vscode编辑虚拟机中的文件了（ps:插件需要重新安装ssh版，不然会报错）
+
+  
 </code></pre>
 ]]></content>
       <tags>
