@@ -132,7 +132,7 @@
 ]]></content>
   </entry>
   <entry>
-    <title>使用主机vscodessh连接虚拟机</title>
+    <title>使用主机VSCodessh连接虚拟机</title>
     <url>/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
     <content><![CDATA[<blockquote>
 <p>在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…</p>
@@ -145,8 +145,28 @@
 <h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2. 安装插件"></a>2. 安装插件</h2><p>   在主机上安装插件<code>Remote-SSH插件</code><br>   <img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png" alt="Alt text"></p>
 <h2 id="3-配置"><a href="#3-配置" class="headerlink" title="3. 配置"></a>3. 配置</h2><p> 在主机上配置<code>config</code>文件<br><img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png" alt="Alt text"><br>    <code>Host</code>：主机名，随便起<br>    <code>HostName</code>：虚拟机的ip地址,如192.0.0.0<br>    <code>User</code>：虚拟机的用户名</p>
 <h2 id="4-连接"><a href="#4-连接" class="headerlink" title="4. 连接"></a>4. 连接</h2><p>   在主机上按<code>F1</code>，输入<code>Remote-SSH:Connect to Host</code>，选择刚才配置的主机名，即可连接</p>
-<h2 id="5-问题"><a href="#5-问题" class="headerlink" title="5. 问题"></a>5. 问题</h2><p>   若出现<code>channel 3: open failed: administratively prohibited: open failed</code>错误，需要修改虚拟机的<code>/etc/ssh/sshd_config</code>文件<br>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><br>   将<code>PermitRootLogin prohibit-password</code>改为<code>PermitRootLogin yes</code><br>   <code>AllowTcpForwarding yes</code>的注释去掉<br>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure><br>   若<code>sudo service ssh restart</code>失败，<del>可以直接重启</del>，也可以使用<code>sudo systemctl restart ssh</code>重启ssh服务</p>
-<pre><code>## 6. 成功！
+<h2 id="5-连接问题"><a href="#5-连接问题" class="headerlink" title="5. 连接问题"></a>5. 连接问题</h2><p>   若出现<code>channel 3: open failed: administratively prohibited: open failed</code>错误，需要修改虚拟机的<code>/etc/ssh/sshd_config</code>文件<br>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><br>   将<code>PermitRootLogin prohibit-password</code>改为<code>PermitRootLogin yes</code><br>   <code>AllowTcpForwarding yes</code>的注释去掉<br>   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure><br>   若<code>sudo service ssh restart</code>失败，<del>可以直接重启</del>，也可以使用<code>sudo systemctl restart ssh</code>重启ssh服务</p>
+<h2 id="6-运行问题"><a href="#6-运行问题" class="headerlink" title="6. 运行问题"></a>6. 运行问题</h2><blockquote>
+<p> 虚拟机系统<code>OpenEuler 20.03 LTS</code>，<code>VSCode 1.60.2</code>,<code>gcc 9.3.0</code>；</p>
+</blockquote>
+<ul>
+<li><p>权限问题<br>   在虚拟机中运行程序时，会出现<code>bash: gcc: command not found</code>错误，需要安装<code>gcc</code>，使用<code>sudo apt install gcc</code>安装<code>gcc</code>，安装完成后，运行程序时会出现<code>bash: ./a.out: Permission denied</code>错误，需要修改<code>a.out</code>的权限</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo chmod 777 a.out</span><br></pre></td></tr></table></figure>
+<p>   或者</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo chmod +x a.out</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>编译问题<br>   在虚拟机中运行程序时，会出现<code>bash: ./a.out: cannot execute binary file: Exec format error</code>错误，需要重新编译，使用<code>gcc -o a.out a.c</code>编译，再运行即可</p>
+</li>
+<li><p>运行问题<br>   在虚拟机中运行程序时，会出现<code>bash: ./a.out: cannot execute binary file: No such file or directory</code>错误，需要使用<code>./a.out</code>运行，不能使用<code>a.out</code>运行</p>
+</li>
+<li><p>调试问题<br>   vscode直接生成的<code>launch.json</code>文件，调试时会出现<code>miDebuggerPath</code>错误，需要修改<code>launch.json</code>文件</p>
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&quot;miDebuggerPath&quot;: &quot;/usr/bin/gdb&quot;</span><br></pre></td></tr></table></figure>
+<p>   为当前虚拟机中的<code>gdb</code>路径</p>
+</li>
+</ul>
+<pre><code>
+
+## 6. 成功！
  接下来就可以在主机上使用vscode编辑虚拟机中的文件了（ps:插件需要重新安装ssh版，不然会报错）
 
   
