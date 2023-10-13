@@ -176,4 +176,33 @@
         <tag>-vmware -ssh -vscode</tag>
       </tags>
   </entry>
+  <entry>
+    <title>How_to_atuo-fomat_code</title>
+    <url>/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/</url>
+    <content><![CDATA[<blockquote>
+<p>本文介绍如何自动格式化代码</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="1-什么是代码格式化"><a href="#1-什么是代码格式化" class="headerlink" title="1. 什么是代码格式化"></a>1. 什么是代码格式化</h2><p>代码格式化是指将代码按照一定的规则进行排版，使得代码更加易读，便于阅读和维护。</p>
+<h2 id="2-为什么要格式化代码"><a href="#2-为什么要格式化代码" class="headerlink" title="2. 为什么要格式化代码"></a>2. 为什么要格式化代码</h2><ul>
+<li>代码格式化可以使代码更加易读，便于阅读和维护。</li>
+<li>代码格式化可以使代码更加规范，便于团队协作。</li>
+<li>代码格式化可以使代码更加美观，提升代码质量。</li>
+<li><del>课程要求的</del></li>
+</ul>
+<h2 id="3-如何格式化代码"><a href="#3-如何格式化代码" class="headerlink" title="3. 如何格式化代码"></a>3. 如何格式化代码</h2><h3 id="3-1-手动格式化"><a href="#3-1-手动格式化" class="headerlink" title="3.1. 手动格式化"></a>3.1. <del>手动格式化</del></h3><h3 id="3-2-使用IDE格式化"><a href="#3-2-使用IDE格式化" class="headerlink" title="3.2. 使用IDE格式化"></a>3.2. 使用IDE格式化</h3><ul>
+<li>使用vscode格式化<br>C&#x2F;C++格式化：<ul>
+<li>安装插件：C&#x2F;C++、Clang-Format</li>
+<li>配置插件：在settings.json中添加如下配置  <figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;C_Cpp.clang_format_fallbackStyle&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123; BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0, AccessModifierOffset: -4, PointerAlignment: Left, AlignTrailingComments: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveBitFields: true, AlignConsecutiveMacros: true, AlignEscapedNewlinesLeft: true, AlignOperands: true, AlignAfterOpenBracket: true, AlignConsecutiveBitFields: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true &#125;&quot;</span></span><br></pre></td></tr></table></figure>
+  Python格式化：</li>
+<li>安装插件：Python</li>
+<li>配置插件：在settings.json中添加如下配置  <figure class="highlight json"><table><tr><td class="code"><pre><span class="line"><span class="attr">&quot;python.formatting.provider&quot;</span><span class="punctuation">:</span> <span class="string">&quot;autopep8&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="attr">&quot;python.formatting.autopep8Args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="string">&quot;--max-line-length=120&quot;</span></span><br><span class="line"><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line"><span class="attr">&quot;python.formatting.autopep8Path&quot;</span><span class="punctuation">:</span> <span class="string">&quot;autopep8&quot;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h2 id="END"><a href="#END" class="headerlink" title="END"></a>END</h2>]]></content>
+      <tags>
+        <tag>code</tag>
+      </tags>
+  </entry>
 </search>

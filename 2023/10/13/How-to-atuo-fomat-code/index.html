@@ -19,31 +19,28 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"kiwi142857.github.io","root":"/kiwi142857.githhub.io/","images":"/kiwi142857.githhub.io/images","scheme":"Muse","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null,"activeClass":"valine"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/kiwi142857.githhub.io/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/kiwi142857.githhub.io/js/config.js"></script>
 
-    <meta name="description" content="在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…  0.介绍  本文以&#96;Ubuntu 20.04.3 LTS&#96;为例，介绍如何使用主机的vscode+windows powershell连接虚拟机；   虚拟机为&#96;Ubuntu 20.04.3 LTS&#96;;&#96;VSCode 1.60.2&#96;,&#96;gcc 9.3.0&#96;；">
+    <meta name="description" content="本文介绍如何自动格式化代码">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用主机VSCodessh连接虚拟机">
-<meta property="og:url" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/index.html">
+<meta property="og:title" content="How_to_atuo-fomat_code">
+<meta property="og:url" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/index.html">
 <meta property="og:site_name" content="Kiwi&#39;s Blog">
-<meta property="og:description" content="在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…  0.介绍  本文以&#96;Ubuntu 20.04.3 LTS&#96;为例，介绍如何使用主机的vscode+windows powershell连接虚拟机；   虚拟机为&#96;Ubuntu 20.04.3 LTS&#96;;&#96;VSCode 1.60.2&#96;,&#96;gcc 9.3.0&#96;；">
+<meta property="og:description" content="本文介绍如何自动格式化代码">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png">
-<meta property="og:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png">
-<meta property="article:published_time" content="2023-10-08T13:24:55.000Z">
-<meta property="article:modified_time" content="2023-10-10T12:30:24.393Z">
+<meta property="article:published_time" content="2023-10-13T13:12:29.000Z">
+<meta property="article:modified_time" content="2023-10-13T13:16:52.226Z">
 <meta property="article:author" content="kiwi">
-<meta property="article:tag" content="-vmware -ssh -vscode">
+<meta property="article:tag" content="code">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png">
 
 
-<link rel="canonical" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/">
+<link rel="canonical" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/","path":"2023/10/08/ssh连接虚拟机/","title":"使用主机VSCodessh连接虚拟机"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/","path":"2023/10/13/How-to-atuo-fomat-code/","title":"How_to_atuo-fomat_code"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>使用主机VSCodessh连接虚拟机 | Kiwi's Blog</title>
+<title>How_to_atuo-fomat_code | Kiwi's Blog</title>
   
 
 
@@ -139,7 +136,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">0.介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E8%8E%B7%E5%8F%96%E8%99%9A%E6%8B%9F%E6%9C%BAip%E5%9C%B0%E5%9D%80"><span class="nav-number">2.</span> <span class="nav-text">1. 获取虚拟机ip地址</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6"><span class="nav-number">3.</span> <span class="nav-text">2. 安装插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E9%85%8D%E7%BD%AE"><span class="nav-number">4.</span> <span class="nav-text">3. 配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-%E8%BF%9E%E6%8E%A5"><span class="nav-number">5.</span> <span class="nav-text">4. 连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98"><span class="nav-number">6.</span> <span class="nav-text">5. 连接问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-%E8%BF%90%E8%A1%8C%E9%97%AE%E9%A2%98"><span class="nav-number">7.</span> <span class="nav-text">6. 运行问题</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-%E4%BB%80%E4%B9%88%E6%98%AF%E4%BB%A3%E7%A0%81%E6%A0%BC%E5%BC%8F%E5%8C%96"><span class="nav-number">1.</span> <span class="nav-text">1. 什么是代码格式化</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81"><span class="nav-number">2.</span> <span class="nav-text">2. 为什么要格式化代码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-%E5%A6%82%E4%BD%95%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81"><span class="nav-number">3.</span> <span class="nav-text">3. 如何格式化代码</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-%E6%89%8B%E5%8A%A8%E6%A0%BC%E5%BC%8F%E5%8C%96"><span class="nav-number">3.1.</span> <span class="nav-text">3.1. 手动格式化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-%E4%BD%BF%E7%94%A8IDE%E6%A0%BC%E5%BC%8F%E5%8C%96"><span class="nav-number">3.2.</span> <span class="nav-text">3.2. 使用IDE格式化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#END"><span class="nav-number">4.</span> <span class="nav-text">END</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -185,7 +182,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/">
+    <link itemprop="mainEntityOfPage" href="https://kiwi142857.github.io/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/kiwi142857.githhub.io/images/avatar.gif">
@@ -198,12 +195,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="使用主机VSCodessh连接虚拟机 | Kiwi's Blog">
+      <meta itemprop="name" content="How_to_atuo-fomat_code | Kiwi's Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          使用主机VSCodessh连接虚拟机
+          How_to_atuo-fomat_code
         </h1>
 
         <div class="post-meta-container">
@@ -213,19 +210,13 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-10-08 21:24:55" itemprop="dateCreated datePublished" datetime="2023-10-08T21:24:55+08:00">2023-10-08</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-10-10 20:30:24" itemprop="dateModified" datetime="2023-10-10T20:30:24+08:00">2023-10-10</time>
+      <time title="创建时间：2023-10-13 21:12:29 / 修改时间：21:16:52" itemprop="dateCreated datePublished" datetime="2023-10-13T21:12:29+08:00">2023-10-13</time>
     </span>
 
   
-    <span id="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/" class="post-meta-item leancloud_visitors" data-flag-title="使用主机VSCodessh连接虚拟机" title="阅读次数">
+    <span id="/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/" class="post-meta-item leancloud_visitors" data-flag-title="How_to_atuo-fomat_code" title="阅读次数">
       <span class="post-meta-item-icon">
         <i class="far fa-eye"></i>
       </span>
@@ -242,43 +233,27 @@
     
     
     <div class="post-body" itemprop="articleBody"><blockquote>
-<p>在用虚拟机写lab时，感觉不太习惯，尝试使用主机的vscode+windows powershell连接虚拟机…</p>
+<p>本文介绍如何自动格式化代码</p>
 </blockquote>
-<h2 id="0-介绍"><a href="#0-介绍" class="headerlink" title="0.介绍"></a>0.介绍</h2><pre><code>  本文以`Ubuntu 20.04.3 LTS`为例，介绍如何使用主机的vscode+windows powershell连接虚拟机；
-  虚拟机为`Ubuntu 20.04.3 LTS`;`VSCode 1.60.2`,`gcc 9.3.0`；
-</code></pre>
 <span id="more"></span>
-<h2 id="1-获取虚拟机ip地址"><a href="#1-获取虚拟机ip地址" class="headerlink" title="1. 获取虚拟机ip地址"></a>1. 获取虚拟机ip地址</h2><p>   在虚拟机中输入<code>ifconfig</code>，获取ip地址<br>   （如果ifconfig命令无效，可以使用<code>sudo apt install net-tools</code>安装net-tools）</p>
-<h2 id="2-安装插件"><a href="#2-安装插件" class="headerlink" title="2. 安装插件"></a>2. 安装插件</h2><p>   在主机上安装插件<code>Remote-SSH插件</code><br>   <img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image.png" alt="Alt text"></p>
-<h2 id="3-配置"><a href="#3-配置" class="headerlink" title="3. 配置"></a>3. 配置</h2><p> 在主机上配置<code>config</code>文件<br><img src="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/image-2.png" alt="Alt text"><br>    <code>Host</code>：主机名，随便起<br>    <code>HostName</code>：虚拟机的ip地址,如192.0.0.0<br>    <code>User</code>：虚拟机的用户名</p>
-<h2 id="4-连接"><a href="#4-连接" class="headerlink" title="4. 连接"></a>4. 连接</h2><p>   在主机上按<code>F1</code>，输入<code>Remote-SSH:Connect to Host</code>，选择刚才配置的主机名，即可连接</p>
-<h2 id="5-连接问题"><a href="#5-连接问题" class="headerlink" title="5. 连接问题"></a>5. 连接问题</h2><p>   若出现<code>channel 3: open failed: administratively prohibited: open failed</code>错误，需要修改虚拟机的<code>/etc/ssh/sshd_config</code>文件<br>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><br>   将<code>PermitRootLogin prohibit-password</code>改为<code>PermitRootLogin yes</code><br>   <code>AllowTcpForwarding yes</code>的注释去掉<br>   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo service ssh restart</span><br></pre></td></tr></table></figure><br>   若<code>sudo service ssh restart</code>失败，<del>可以直接重启</del>，也可以使用<code>sudo systemctl restart ssh</code>重启ssh服务</p>
-<h2 id="6-运行问题"><a href="#6-运行问题" class="headerlink" title="6. 运行问题"></a>6. 运行问题</h2><blockquote>
-<p> 虚拟机系统<code>OpenEuler 20.03 LTS</code>，<code>VSCode 1.60.2</code>,<code>gcc 9.3.0</code>；</p>
-</blockquote>
-<ul>
-<li><p>权限问题<br>   在虚拟机中运行程序时，会出现<code>bash: gcc: command not found</code>错误，需要安装<code>gcc</code>，使用<code>sudo apt install gcc</code>安装<code>gcc</code>，安装完成后，运行程序时会出现<code>bash: ./a.out: Permission denied</code>错误，需要修改<code>a.out</code>的权限</p>
-   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod 777 a.out</span><br></pre></td></tr></table></figure>
-<p>   或者</p>
-   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod +x a.out</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>编译问题<br>   在虚拟机中运行程序时，会出现<code>bash: ./a.out: cannot execute binary file: Exec format error</code>错误，需要重新编译，使用<code>gcc -o a.out a.c</code>编译，再运行即可</p>
-</li>
-<li><p>运行问题<br>   在虚拟机中运行程序时，会出现<code>bash: ./a.out: cannot execute binary file: No such file or directory</code>错误，需要使用<code>./a.out</code>运行，不能使用<code>a.out</code>运行</p>
-</li>
-<li><p>调试问题<br>   vscode直接生成的<code>launch.json</code>文件，调试时会出现<code>miDebuggerPath</code>错误，需要修改<code>launch.json</code>文件</p>
-   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;miDebuggerPath&quot;: &quot;/usr/bin/gdb&quot;</span><br></pre></td></tr></table></figure>
-<p>   为当前虚拟机中的<code>gdb</code>路径</p>
+<h2 id="1-什么是代码格式化"><a href="#1-什么是代码格式化" class="headerlink" title="1. 什么是代码格式化"></a>1. 什么是代码格式化</h2><p>代码格式化是指将代码按照一定的规则进行排版，使得代码更加易读，便于阅读和维护。</p>
+<h2 id="2-为什么要格式化代码"><a href="#2-为什么要格式化代码" class="headerlink" title="2. 为什么要格式化代码"></a>2. 为什么要格式化代码</h2><ul>
+<li>代码格式化可以使代码更加易读，便于阅读和维护。</li>
+<li>代码格式化可以使代码更加规范，便于团队协作。</li>
+<li>代码格式化可以使代码更加美观，提升代码质量。</li>
+<li><del>课程要求的</del></li>
+</ul>
+<h2 id="3-如何格式化代码"><a href="#3-如何格式化代码" class="headerlink" title="3. 如何格式化代码"></a>3. 如何格式化代码</h2><h3 id="3-1-手动格式化"><a href="#3-1-手动格式化" class="headerlink" title="3.1. 手动格式化"></a>3.1. <del>手动格式化</del></h3><h3 id="3-2-使用IDE格式化"><a href="#3-2-使用IDE格式化" class="headerlink" title="3.2. 使用IDE格式化"></a>3.2. 使用IDE格式化</h3><ul>
+<li>使用vscode格式化<br>C&#x2F;C++格式化：<ul>
+<li>安装插件：C&#x2F;C++、Clang-Format</li>
+<li>配置插件：在settings.json中添加如下配置  <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;C_Cpp.clang_format_fallbackStyle&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&#123; BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0, AccessModifierOffset: -4, PointerAlignment: Left, AlignTrailingComments: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveBitFields: true, AlignConsecutiveMacros: true, AlignEscapedNewlinesLeft: true, AlignOperands: true, AlignAfterOpenBracket: true, AlignConsecutiveBitFields: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true, AlignConsecutiveAssignments: true, AlignConsecutiveDeclarations: true, AlignConsecutiveMacros: true &#125;&quot;</span></span><br></pre></td></tr></table></figure>
+  Python格式化：</li>
+<li>安装插件：Python</li>
+<li>配置插件：在settings.json中添加如下配置  <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">&quot;python.formatting.provider&quot;</span><span class="punctuation">:</span> <span class="string">&quot;autopep8&quot;</span><span class="punctuation">,</span></span><br><span class="line"><span class="attr">&quot;python.formatting.autopep8Args&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">    <span class="string">&quot;--max-line-length=120&quot;</span></span><br><span class="line"><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line"><span class="attr">&quot;python.formatting.autopep8Path&quot;</span><span class="punctuation">:</span> <span class="string">&quot;autopep8&quot;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
 </li>
 </ul>
-<pre><code>
-
-## 6. 成功！
- 接下来就可以在主机上使用vscode编辑虚拟机中的文件了（ps:插件需要重新安装ssh版，不然会报错）
-
-  
-</code></pre>
-
+<h2 id="END"><a href="#END" class="headerlink" title="END"></a>END</h2>
     </div>
 
     
@@ -287,21 +262,18 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/kiwi142857.githhub.io/tags/vmware-ssh-vscode/" rel="tag"># -vmware -ssh -vscode</a>
+              <a href="/kiwi142857.githhub.io/tags/code/" rel="tag"># code</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/kiwi142857.githhub.io/2023/10/08/VSCode%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%8B%E5%A4%9A%E4%B8%AA%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9E%E6%8E%A5%E5%BA%93/" rel="prev" title="VSCode编译文件夹下多个文件并连接库">
-                  <i class="fa fa-angle-left"></i> VSCode编译文件夹下多个文件并连接库
+                <a href="/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/" rel="prev" title="使用主机VSCodessh连接虚拟机">
+                  <i class="fa fa-angle-left"></i> 使用主机VSCodessh连接虚拟机
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/" rel="next" title="How_to_atuo-fomat_code">
-                  How_to_atuo-fomat_code <i class="fa fa-angle-right"></i>
-                </a>
             </div>
           </div>
     </footer>
@@ -397,7 +369,7 @@ darkmode.showWidget();
 
 
 
-<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"i3uwDeZiqvUWJYHCg2Ca22mo-gzGzoHsz","appKey":"6JD9VjtzjECsmIegDjxv2Avk","serverURLs":"https://i3uwdezi.lc-cn-n1-shared.com","placeholder":"输入你的评论\n昵称为必填项目，输入QQ号可以直接获取用户名和头像，并且省去了填写邮箱的麻烦！\n虽然email不是必选，但是填写了email可以收到推送通知哦！","avatar":"","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":true,"enableQQ":true,"requiredFields":["nick"],"el":"#valine-comments","path":"/kiwi142857.githhub.io/2023/10/08/ssh%E8%BF%9E%E6%8E%A5%E8%99%9A%E6%8B%9F%E6%9C%BA/"}</script>
+<script class="next-config" data-name="valine" type="application/json">{"enable":true,"appId":"i3uwDeZiqvUWJYHCg2Ca22mo-gzGzoHsz","appKey":"6JD9VjtzjECsmIegDjxv2Avk","serverURLs":"https://i3uwdezi.lc-cn-n1-shared.com","placeholder":"输入你的评论\n昵称为必填项目，输入QQ号可以直接获取用户名和头像，并且省去了填写邮箱的麻烦！\n虽然email不是必选，但是填写了email可以收到推送通知哦！","avatar":"","meta":["nick","mail","link"],"pageSize":10,"lang":null,"visitor":true,"comment_count":true,"recordIP":true,"enableQQ":true,"requiredFields":["nick"],"el":"#valine-comments","path":"/kiwi142857.githhub.io/2023/10/13/How-to-atuo-fomat-code/"}</script>
 <script>
 document.addEventListener('page:loaded', () => {
   NexT.utils.loadComments(CONFIG.valine.el)
